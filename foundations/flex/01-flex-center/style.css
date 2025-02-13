@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  /* Just margin: auto would suffice, but "Did you _only_ use flexbox to center it?"...  */
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
